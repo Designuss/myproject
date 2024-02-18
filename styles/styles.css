@@ -1,0 +1,135 @@
+@import url('colors.css');
+@import url('text-size.css');
+.primary-color-bg{
+	background-color: var(--primary-color);
+}
+.accent-color-bg{
+	background-color: var(--accent-color);
+}
+.primary-color{
+	color: var(--primary-color);
+}
+.accent-color{
+	color: var(--accent-color);
+}
+/**/
+*{
+	margin: 0;
+	padding: 0;
+}
+.section{
+	width: 60%;
+	display: flex;
+	border-radius: 2em;
+	margin: 1rem 0;
+	padding: 1rem;
+	align-items: center;
+	justify-content: space-around;
+}
+.sec-container{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+h1, h2{
+	padding: 1rem 0;
+}
+p{
+	padding: 1rem;
+}
+body{
+	font-family: "Amsdam-Regular";
+    background: linear-gradient(170deg, var(--primary-color) 50%, var(--secondary-color) 50%);
+}
+a{
+	text-decoration: none;
+	color: var(--accent-color);
+}
+/*main*/
+.wrap{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.welcome_btn{
+	display: flex;
+	justify-content: flex-start;
+}
+.welcome_btn a{
+	background-color: var(--primary-color);
+	padding: 1rem;
+	margin: 0 1rem 0 0rem;
+	border-radius: 2rem;
+	text-decoration: none;
+	transition: 0.6s ease-out;
+	font-family: "Montserrat-Regular";
+}
+.welcome nav a:hover{
+	background-color: var(--accent-color);
+	color: var(--primary-color);
+}
+.welcome span:first-child{
+	width: 50%;
+}
+.flex{
+	display: flex;
+}
+.row{
+	flex-direction: row;
+}
+.column{
+	flex-direction: column;
+}
+.our-secret img{
+	width: 30%;
+}
+.cloud{
+	display: block;
+	width: 8.5rem;
+	border-radius: 2rem 2rem 2rem 0;
+    padding: 1rem 1rem 1rem 2rem;
+    justify-content: flex-start;
+}
+.img-container{
+	border-radius: 1rem;
+	width: 100%;
+}
+.grid-container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.grid-item{
+	width: 32%;
+	height: max-content;
+	text-align: center;
+	padding: 1rem 0;
+
+}
+.our-grid-item{
+	background-color: var(--accent-color);
+	border-radius: 1rem;
+	margin: 1rem 0;
+}
+/*main*/
+
+.video-gallery {
+  text-align: center;
+  padding: 20px;
+}
+.video-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.video {
+  display: inline-block;
+  margin-right: 1rem;
+  vertical-align: top;
+}
+
+.video iframe {
+  width: 300px;
+  height: 169px; /* 16:9 aspect ratio */
+}
